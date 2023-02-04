@@ -1,0 +1,9 @@
+{
+    "formacion": ["Front-end Academy (ProgramAR-4.0)","Inglés B2","Frances A2"],
+    "exp": ["Desarrollador web Frontend (2021-2023)","Dibujante AutoCad (2015-2020)"],
+    "contacto": {
+        "Email": "alfonso.rodriguez@example.com",
+        "Phone": "(272) 790-0888",
+        "Location": "Valwood Pkwy, 8929, Michigan"
+    }
+}
