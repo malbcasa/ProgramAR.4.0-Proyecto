@@ -1,9 +1,9 @@
-const ul = document.getElementsByClassName("areas-content--ul")[0];
+const ol = document.getElementsByClassName("areas-content--ol")[0];
 
 export function show(data,atributo){
     data.then(response => {
 
-        ul.innerHTML = ''; 
+        ol.innerHTML = ''; 
 
         for (let element in response[atributo]){
             const li = document.createElement('li');
@@ -14,7 +14,9 @@ export function show(data,atributo){
                 li.innerHTML = `${element} : ${response[atributo][element]} `;
                 
             }
-            ul.appendChild(li);
+            li.classList.add("m-12")
+           // li.classList.add("items-center")
+            ol.appendChild(li);
         }
     })
 }
