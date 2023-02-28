@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Tilt: ["Tilt Neon","cursive"],
+      }
+    },
   },
   plugins: [],
 }

@@ -15,6 +15,7 @@ export function show(data,atributo){
                 
             }
             li.classList.add("m-12")
+            li.classList.add("font-Tilt")
            // li.classList.add("items-center")
             ol.appendChild(li);
         }
